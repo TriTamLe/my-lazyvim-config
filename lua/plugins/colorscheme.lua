@@ -3,7 +3,7 @@ return {
 
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "kanagawa-dragon",
+      colorscheme = "oldworld",
     },
   },
   {
@@ -40,6 +40,14 @@ return {
   },
   {
     "AlexvZyl/nordic.nvim",
+    lazy = false,
+    priority = 1000,
+  },
+  {
+    "oxfist/night-owl.nvim",
+  },
+  {
+    "dgox16/oldworld.nvim",
     lazy = false,
     priority = 1000,
   },
