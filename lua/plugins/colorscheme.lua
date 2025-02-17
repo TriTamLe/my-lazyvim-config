@@ -51,4 +51,25 @@ return {
     lazy = false,
     priority = 1000,
   },
+  {
+    "neanias/everforest-nvim",
+    -- Optional; default configuration will be used if setup isn't called.
+    config = function()
+      require("everforest").setup()
+    end,
+  },
+  { "savq/melange-nvim" },
+
+  {
+    "comfysage/evergarden",
+    priority = 1000, -- Colorscheme plugin is loaded first before any other plugins
+    opts = {
+      transparent_background = true,
+      variant = "medium", -- 'hard'|'medium'|'soft'
+      overrides = {}, -- add custom overrides
+    },
+  },
+  {
+    "yashguptaz/calvera-dark.nvim",
+  },
 }

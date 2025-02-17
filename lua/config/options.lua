@@ -5,3 +5,4 @@ vim.opt.linebreak = true
 vim.opt.ruler = true
 vim.opt.linespace = 2
 vim.g.lazyvim_eslint_auto_format = true
+vim.opt.termguicolors = true
